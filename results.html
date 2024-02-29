@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sudoku Solution</title>
+  <link rel="stylesheet" href="../static/index1.css">
+</head>
+<body style="background-color: wheat">
+  <main>
+    <h1 style="text-align: center">Sudoku Solution</h1>
+    <table id="board" class="board">
+      <caption style="width: clamp(30ch, 50%, 70ch); text-align: center;"></caption>
+      {% for i in range(9) %}
+        <tr class="row">
+          {% for j in range(9) %}
+            <td>
+              <input class="cell" readonly name="variable" value="{{puzzle[i*9+j]}}">
+            </td>
+          {% endfor %}
+        </tr>
+      {% endfor %}
+    </table>
+    <div style="display: flex; justify-content: center">
+      <button type="button" class="button" onclick="location.href='/';">Reset</button>
+    </div>
+  </main>
+</body>
+</html>

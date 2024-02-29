@@ -1,0 +1,112 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.428),rgba(39, 39, 39, 0.582)), url('https://t4.ftcdn.net/jpg/01/97/77/41/360_F_197774150_3z3oC6q6P01wKPiY5OPj9ubODA494Whx.jpg'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+  }
+  h1, p, form{
+    margin: 15px;
+  }
+  h1{
+    color: goldenrod;
+    font-size: 35px;
+    text-shadow: 2px 2px 4px #050505;
+  } 
+  p{
+    color: goldenrod;
+    font-size: 13px;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  p a{
+    color: rgb(118, 85, 0);
+  }
+  form{
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+  }
+  table{
+    text-shadow: 1px 1px 3px #000000;
+  }
+  body tr{
+    display: flex;
+    justify-content: center;
+  }
+  .row1, .row4, .row7{
+    border-top: 2.5px solid rgb(0, 0, 0);
+  }
+  .row9{
+    border-bottom: 2.5px solid rgb(0, 0, 0);
+  }
+  .cell1, .cell4, .cell7{
+    border-left: 2.5px solid rgb(0, 0, 0);
+  }
+  .cell9{
+    border-right: 2.5px solid rgb(0, 0, 0);
+  }
+  input {
+    border: 0.8px solid rgb(0, 0, 0);
+    width: 8vw;
+    height: 8vw;
+    max-width: 50px;
+    max-height: 50px;
+    text-align: center;
+    font-size: 30px;
+    background-color: antiquewhite;
+    transition: background-color 0.3s; 
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    opacity: 0.85;
+  }
+  input:hover {
+    background-color: rgb(157, 157, 157); 
+  }
+  input:active {
+    background-color: rgb(102, 102, 102); 
+  
+  }
+  input::-webkit-outer-spin-button, 
+  input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+  }
+  .button_frame{
+    display: flex;
+    margin-top: 10px;
+    width: 72vw;
+    max-width: 450px;
+  }
+  button{
+    text-align: center;
+    height: 30px;
+    width: 50%;
+    margin: 5px;
+    background-color: goldenrod;
+    border: none;
+    border-radius: 5px;
+    font-size: 17px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 3px #0000008e;
+    opacity: 0.85;
+  }
+  button:hover {
+    background-color: rgb(118, 85, 0); 
+  }
+  button:active {
+    background-color: rgb(71, 51, 0); 
+  
+  }
